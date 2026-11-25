@@ -1,6 +1,6 @@
 # Fraud Detection in Python
 
-For CSE 891 Data Mining at Michigan State University. Originally developed in collaboration with Baylee Adams and Kyle Shope. Currently maintained by Dev Bhatt.
+For CSE 891 Data Mining at Michigan State University. Originally developed in collaboration with Baylee Adams and Kyle Shope.
 
 ## Project Overview
 The integrity of financial transactions is an incredibly important issue facing financial institutions and credit card companies alike. Having the ability to classify the legitimacy of a transaction to protect clients not only gives customers peace of mind, but is expensive. In 2016, according to CNBC, consumers lost more than $16B due to fraudulent transactions.
@@ -28,10 +28,3 @@ Our dataset from Kaggle has 594,643 rows of data, including 587,443 normal payme
 | Random Forest        | 0.8845        | 0.7462   | 1096  | 421   |
 
 We see that Naive Bayes, while it has the lowest precision, has the highest recall and lowest FP rate among the models. The Bayes model has the highest FN rate; however, this error is less serious (in a practical sense, these transactions would be flagged as fraud, and later resolved by the user, which is better than totally missing a fraudulent transaction), so we give more weight in our decision to the low FP. We also see that the neural network has a very high precision and a high recall, with the second-lowest FP score. Therefore, we rank these two models as most effective in catching fraudulent transactions.
-
-## Maintainer
-
-Dev Bhatt maintains this project, bringing more than six years of professional experience in data solutions and analytics, with a focus on risk indicators, controls, and automation.
-
-- Email: [devbhattwork27@gmail.com](mailto:devbhattwork27@gmail.com)
-- LinkedIn: [linkedin.com/in/dev-bhatt27](https://linkedin.com/in/dev-bhatt27)
